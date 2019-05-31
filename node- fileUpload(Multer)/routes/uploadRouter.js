@@ -14,7 +14,7 @@ const storage = multer.diskStorage({
 });
 
 const imageFileFilter = (req, file, cb) => {
-    if(!file.originalname.match(/\.(jpg|jpeg|png|gig)$/)) {
+    if(!file.originalname.match(/\.(jpg|jpeg|png|gif)$/)) {
         return cb(new Error('You can upload only image files!'));
     }
     cb(null, true);
