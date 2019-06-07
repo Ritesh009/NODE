@@ -16,3 +16,8 @@ NPM contains use the concept of common JS API which allows API's defining common
 Node follows the common JS module specification.
 Each file in node is it's own module.
 The module variable gives access to the current module definition in a file
+For node initization,type the below in the terminal/command line
+
+```
+npm init
+```
